@@ -188,7 +188,6 @@ const TabContent = ({ openTab, setOpenTab }) => {
                       </span>
                     </div>
                   )}
-                  llllllllll
                   {order.orderStatus === TAB_LIST_TEXT.CANCELLED && (
                     <div
                       className="status status-un-paid"

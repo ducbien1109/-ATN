@@ -470,7 +470,7 @@ export const FOOTER = {
     </>
   ),
   DEVELOPED_BY:
-    "Developed by Group 14 - Web Application Development Course - INT3306 3",
+    "",
 };
 
 export const SELECT = {

@@ -102,9 +102,10 @@ import { toast } from "react-toastify";
 import { ConfigProvider, Popconfirm } from "antd";
 import { API, MESSAGE, POPCONFIRM, PROFILE_PAGE } from "@Const";
 import EditComment from "./Editcomment";
+import { Button, Space } from "antd";
 
 function CommentList() {
-  const [cookies] = useCookies(['access_token']);
+  const [cookies] = useCookies(["access_token"]);
   const [comments, setComments] = useState([]);
   const [editingComment, setEditingCommentId] = useState(null);
 
@@ -112,11 +113,11 @@ function CommentList() {
 
   const fetchComments = async () => {
     try {
-      const url = API.PUBLIC.GET_COMMENT + window.location.search
+      const url = API.PUBLIC.GET_COMMENT + window.location.search;
       const response = await fetch(url, {
         method: "GET",
         headers: {
-          "Authorization": `Bearer ${accessToken}`,
+          Authorization: `Bearer ${accessToken}`,
         },
       });
 
@@ -139,7 +140,7 @@ function CommentList() {
       const response = await fetch(API.PUBLIC.DELETE_COMMENT, {
         method: "POST",
         headers: {
-          "Authorization": `Bearer ${accessToken}`,
+          Authorization: `Bearer ${accessToken}`,
         },
         body: formData,
       });
@@ -158,22 +159,24 @@ function CommentList() {
     }
   };
   const confirmDelete = (commentID) => {
-    if (window.confirm("Bạn có chắc muốn xóa bình luận này không?")) {
-      handleDelete(commentID);
-    }
+    handleDelete(commentID);
   };
   const handleEdit = (comment) => {
-        setEditingCommentId(comment);
-      };
+    setEditingCommentId(comment);
+  };
   useEffect(() => {
-    fetchComments().then(r => { });
+    fetchComments().then((r) => {});
   }, []);
 
   return (
     <div>
       {comments.map((comment, index) => (
         <div className="comment">
-          <img className="avatar comment-avatar" src={comment.userID.avatarPath} alt="Avatar" />
+          <img
+            className="avatar comment-avatar"
+            src={comment.userID.avatarPath}
+            alt="Avatar"
+          />
           <div className="comment-content">
             <div>
               <div className="content">{comment.userID.fullName}</div>
@@ -187,8 +190,24 @@ function CommentList() {
               />
             )}
             <div className="action-comment">
-              <div><a className="edit-comment" onClick={() => handleEdit(comment.commentID)}>Edit</a></div>
-              <a className="delete-comment" onClick={() => confirmDelete(comment.commentID)}>Delete</a>
+            
+              <Button
+                danger
+                className="edit-comment"
+                onClick={() => handleEdit(comment.commentID)}
+              >
+                Edit
+              </Button>
+
+              <Popconfirm
+                title="Delete the task"
+                description="Are you sure to delete this task?"
+                okText="Yes"
+                cancelText="No"
+                onConfirm={() => confirmDelete(comment.commentID)}
+              >
+                <Button danger>Delete</Button>
+              </Popconfirm>
             </div>
           </div>
         </div>
@@ -198,4 +217,3 @@ function CommentList() {
 }
 
 export default CommentList;
-

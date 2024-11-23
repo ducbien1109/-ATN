@@ -184,7 +184,17 @@ const TabContent = ({
       </div>
     );
   }
-
+  const totalPendingProducts = orderList
+    .filter((order) => order.orderStatus === TAB_LIST_TEXT.PENDING_CONFIRMATION)
+    .reduce((total, order) => {
+      if (order.orderDetails) {
+        return (
+          total +
+          order.orderDetails.reduce((sum, item) => sum + item.quantity, 0)
+        );
+      }
+      return total;
+    }, 0);
   return (
     <>
       {orderList &&
@@ -193,6 +203,24 @@ const TabContent = ({
           openTab === TAB_LIST_TEXT.ALL || order.orderStatus === openTab
       ).length ? (
         <>
+          {/* {openTab === TAB_LIST_TEXT.PENDING_CONFIRMATION && (
+            <div
+              className="test"
+              style={{
+                textAlign: "center",
+              }}
+            >
+              {totalPendingProducts}
+            </div>
+          )} */}
+          <div
+            className="test"
+            style={{
+              textAlign: "center",
+            }}
+          >
+            {totalPendingProducts}
+          </div>
           {orderList.map((order, index) => (
             <div key={index}>
               <div className="App">
@@ -302,16 +330,17 @@ const TabContent = ({
                         <p className="date">
                           {convertDateTimeFormat(order.orderDate)}
                         </p>
-
                         <div style={{ display: "flex", alignItems: "center" }}>
                           {order.orderStatus ===
                             TAB_LIST_TEXT.PENDING_CONFIRMATION && (
-                            <div
-                              className="status status-un-paid"
-                              style={{ backgroundColor: "#ffe39d" }}
-                            >
-                              {order.orderStatus}
-                            </div>
+                            <>
+                              <div
+                                className="status status-un-paid"
+                                style={{ backgroundColor: "#ffe39d" }}
+                              >
+                                {order.orderStatus}
+                              </div>
+                            </>
                           )}
                           {order.orderStatus === TAB_LIST_TEXT.CONFIRMED && (
                             <div

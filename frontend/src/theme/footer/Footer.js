@@ -53,7 +53,7 @@ const Footer = () => {
                   <a href="/">
                     <img
                       src={IMAGE_URL.LOGO_FASHION_STORE}
-                      style={{ height: "35px" }}
+                      style={{ height: "95px" }}
                       alt="Logo"
                       loading="lazy"
                     />
@@ -207,7 +207,10 @@ const Footer = () => {
                   {/*</a>*/}
                 </div>
                 <Space direction="vertical" align="center">
-                  <QRCode type="canvas" value="https://www.facebook.com/profile.php?id=100033968265083" />
+                  <QRCode
+                    type="canvas"
+                    value="https://www.facebook.com/profile.php?id=100033968265083"
+                  />
                 </Space>
               </div>
             </div>

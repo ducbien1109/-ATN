@@ -33,9 +33,6 @@ const AddComment = ({ onAddComment }) => {
             if (response.ok) {
                 const data = await response.json();
                 toast.success(data.message);
-                // Gọi hàm callback để cập nhật danh sách comment
-                // onAddComment();
-                // Reset trường nội dung comment sau khi gửi
                 setContent('');
                 window.location.reload();
             } else {
