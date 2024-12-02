@@ -4,36 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39072da5-8cde-4410-8270-93547e5bf014" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/DTO/OrdersDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/DTO/PaymentRestDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/DTO/TransactionStatusDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/DTO/infoPaymentDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/config/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/controllers/PaymentController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/controllers/PaymentNavigate.java" afterDir="false" />
+    <list default="true" id="39072da5-8cde-4410-8270-93547e5bf014" name="Changes" comment="Changes">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/controllers/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/controllers/AuthController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/controllers/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/controllers/CommentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/controllers/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/controllers/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/controllers/UsersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/controllers/UsersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/models/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/models/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/models/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/FashionStore/models/Users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/dialogs/LoginDialog/LoginDialog.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/dialogs/LoginDialog/LoginDialog.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/managementPage/components/NavigationMenu/NavigationMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/managementPage/components/NavigationMenu/NavigationMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/managementPage/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/managementPage/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/admin/managementPage/utils/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/admin/managementPage/utils/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/Comments/Addcomment.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/Comments/Addcomment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/Comments/Comments.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/Comments/Comments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/Comments/Editcomment.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/Comments/Editcomment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/cartPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/cartPage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/checkoutPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/checkoutPage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/profilePage/profileOrdersPage/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/profilePage/profileOrdersPage/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/utils/const.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/const.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/buttons/mess/Mess.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/buttons/mess/Mess.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/pages/user/homePage/SlideBanner/SlideBanner.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/pages/user/homePage/SlideBanner/SlideBanner.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,30 +22,16 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 2
-}</component>
   <component name="ProjectId" id="2WfVk0DQp9VmwceEzyQ4ErrtvOr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/báo cáo đồ án/moi/backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "yarn",
-    "vue.rearranger.settings.migration": "true"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

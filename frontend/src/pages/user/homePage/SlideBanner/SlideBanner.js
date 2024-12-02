@@ -44,40 +44,39 @@ const SlideBanner = () => {
 
   return (
     <div>
-     <div className="waviy">
-  <span style={{ "--i": 1 }}>U</span>
-  <span style={{ "--i": 2 }}>N</span>
-  <span style={{ "--i": 3 }}>I</span>
-  <span style={{ "--i": 4 }}>V</span>
-  <span style={{ "--i": 5 }}>E</span>
-  <span style={{ "--i": 6 }}>R</span>
-  <span style={{ "--i": 7 }}>S</span>
-  <span style={{ "--i": 8 }}>I</span>
-  <span style={{ "--i": 9 }}>T</span>
-  <span style={{ "--i": 10, marginRight: '20px' }}>Y</span> 
-  
-  <span style={{ "--i": 11 }}>O</span>
-  <span style={{ "--i": 12, marginRight: '20px' }}>F</span> 
-  <span style={{ "--i": 13 }}>A</span>
-  <span style={{ "--i": 14 }}>R</span>
-  <span style={{ "--i": 15 }}>C</span>
-  <span style={{ "--i": 16 }}>H</span>
-  <span style={{ "--i": 17 }}>I</span>
-  <span style={{ "--i": 18 }}>T</span>
-  <span style={{ "--i": 19 }}>E</span>
-  <span style={{ "--i": 20 }}>C</span>
-  <span style={{ "--i": 21 }}>T</span>
-  <span style={{ "--i": 22 }}>U</span>
-  <span style={{ "--i": 23 }}>R</span>
-  <span style={{ "--i": 24, marginRight: '20px' }}>E</span> 
-  
-  <span style={{ "--i": 25 }}>D</span>
-  <span style={{ "--i": 26 }}>A</span>
-  <span style={{ "--i": 27 }}>N</span>
-  <span style={{ "--i": 28 }}>A</span>
-  <span style={{ "--i": 29 }}>N</span>
-  <span style={{ "--i": 30 }}>G</span>
-</div>
+      <div className="waviy">
+        <span style={{ "--i": 1 }}>D</span>
+        <span style={{ "--i": 2 }}>A</span>
+        <span style={{ "--i": 3 }}>N</span>
+        <span style={{ "--i": 4 }}>A</span>
+        <span style={{ "--i": 5 }}>N</span>
+        <span style={{ "--i": 6, marginRight: "20px" }}>G</span>
+        <span style={{ "--i": 7 }}>U</span>
+        <span style={{ "--i": 8 }}>N</span>
+        <span style={{ "--i": 9 }}>I</span>
+        <span style={{ "--i": 10 }}>V</span>
+        <span style={{ "--i": 11 }}>E</span>
+        <span style={{ "--i": 12 }}>R</span>
+        <span style={{ "--i": 13 }}>S</span>
+        <span style={{ "--i": 14 }}>I</span>
+        <span style={{ "--i": 15 }}>T</span>
+        <span style={{ "--i": 16, marginRight: "20px" }}>Y</span>
+        <span style={{ "--i": 17 }}>O</span>
+        <span style={{ "--i": 18, marginRight: "20px" }}>F</span>
+        <span style={{ "--i": 19 }}>A</span>
+        <span style={{ "--i": 20 }}>R</span>
+        <span style={{ "--i": 21 }}>C</span>
+        <span style={{ "--i": 22 }}>H</span>
+        <span style={{ "--i": 23 }}>I</span>
+        <span style={{ "--i": 24 }}>T</span>
+
+        <span style={{ "--i": 25 }}>E</span>
+        <span style={{ "--i": 26 }}>C</span>
+        <span style={{ "--i": 27 }}>T</span>
+        <span style={{ "--i": 28 }}>U</span>
+        <span style={{ "--i": 29 }}>R</span>
+        <span style={{ "--i": 30 }}>E</span>
+      </div>
 
       <section className="section-home container-fluid p-0">
         <section className="slide-banner w-100 d-flex justify-content-center">
